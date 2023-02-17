@@ -1,0 +1,38 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+.temp/
+**/static/cis/
+/.sass-cache/
+/cis-server/src/main/resources/static/cis/**
+/cis-front/src/main/resources/static/cis/**
+/cis-front/src/main/java/cn/satway/cis/jre/cn/satway/cis/**
+/cis-front/src/main/java/cn/satway/cis/client/rpc/*Async.java
